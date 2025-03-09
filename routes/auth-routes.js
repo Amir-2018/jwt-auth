@@ -1,13 +1,3 @@
-const { Router } = require('express');
-
-const authController = require('../controllers/auth-controller');
-
-const router = Router();
-
-router.post('/login' ,authController.login_user);
-router.get('/logout', authController.logout_get);
-router.post('/send_email/',authController.send_email);
-router.post('/verify_code/',authController.verify_code);
-router.put('/change_pass/',authController.change_pass);
-
-module.exports = router;
+version https://git-lfs.github.com/spec/v1
+oid sha256:153f6c9dce5fe2b635d4ca5b65a08732b042aa6f952254614f9b61f0f64d0f2a
+size 438

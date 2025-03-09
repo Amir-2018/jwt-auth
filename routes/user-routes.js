@@ -1,19 +1,3 @@
-const middleWarefunction = require("../middleware/auth-middleware");
-
-const { Router } = require('express');
-
-const userController = require('../controllers/user-controller');
-
-const router = Router();
-
-router.get('/get_all_users',middleWarefunction.testKey, userController.get_all_users);
-
-router.post('/register' , userController.save_user);
-
-router.delete('/delete_user/:id', userController.delete_user);
-
-router.put('/update_user/:id', userController.update_user);
-
-
-
-module.exports = router;
+version https://git-lfs.github.com/spec/v1
+oid sha256:28dd4d8a61f920ad2921d4994f8691f2e359cff100690a3bf024f6023ca84862
+size 514

@@ -1,8 +1,3 @@
-require("dotenv").config();
-const jwt = require("jsonwebtoken");
-
-module.exports.createSecretToken = (id) => {
-  return jwt.sign({ id }, process.env.TOKEN_KEY, {
-    expiresIn: 3 * 24 * 60 * 60,
-  });
-}; 
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ef980b6c1da3ece53832729f2f7070d213035afa39777edaeaaf1891605b7c3
+size 211
